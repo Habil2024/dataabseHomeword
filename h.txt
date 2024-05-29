@@ -1,0 +1,14 @@
+create DATABASE hospital;
+
+create TABLE doctors(
+    id int PRIMARY key,
+    name varchar(30), 
+    lastName varchar(30),
+    fess int,
+    );
+
+INSERT INTO doctors VALUES(1,'ahmad','jabar',20000);
+
+SELECT * FROM doctors
+
+delete form student where id=1
